@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="error_no_gps">没有打开GPS</string>
+    <string name="open_gps">打开GPS</string>
+    <string name="error_no_network">咦，网络出现了问题</string>
+    <string name="open_network">开启网络</string>
+    <string name="error_loaddata_failed">加载数据失败</string>
+    <string name="temperature">当前温度</string>
+    <string name="wind_direction">当前风向</string>
+    <string name="wind_strength">当前风力度</string>
+    <string name="humidity">当前湿度</string>
+    <string name="updatetime">更新时间</string>
+    <string name="dressing_advice">穿衣建议</string>
+    <string name="uv_index">紫外线强度</string>
+    <string name="comfort_index">舒适度指数</string>
+    <string name="wash_index">洗车指数</string>
+    <string name="travel_index">旅游指数</string>
+    <string name="exercise_index">晨练指数</string>
+    <string name="drying_index">干燥指数</string>
+    <string name="add_city">添加城市</string>
+    <string name="put_city">请输入你所在的城市</string>
+    <string-array name="array_pager_title">
+        <item>详情</item>
+        <item>未来天气</item>
+    </string-array>
+    </resources>

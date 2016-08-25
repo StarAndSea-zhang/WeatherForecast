@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/humidity" />
+
+        <TextView
+            android:id="@+id/tv_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_humidity"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/wind_strength" />
+
+        <TextView
+            android:id="@+id/tv_wind_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_humidity"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_wind_strength"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/uv_index" />
+
+        <TextView
+            android:id="@+id/tv_uv_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_wind_strength"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_uv_index"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/updatetime" />
+
+        <TextView
+            android:id="@+id/tv_updatetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_uv_index"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_updatetime"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/exercise_index" />
+
+        <TextView
+            android:id="@+id/tv_exercise_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_updatetime"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_exercise_index"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/wash_index" />
+
+        <TextView
+            android:id="@+id/tv_wash_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_exercise_index"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_wash_index"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/travel_index" />
+
+
+        <TextView
+            android:id="@+id/tv_travel_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_wash_index"
+            android:padding="@dimen/textview_item_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_travel_index"
+            android:gravity="left"
+            android:padding="@dimen/textview_item_padding"
+            android:text="@string/drying_index" />
+
+        <TextView
+            android:id="@+id/tv_drying_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_travel_index"
+            android:padding="@dimen/textview_item_padding" />
+    </RelativeLayout>
+</ScrollView>

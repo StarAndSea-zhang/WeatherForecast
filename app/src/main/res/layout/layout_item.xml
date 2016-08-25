@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@color/color_33ff0000"
+    app:cardCornerRadius="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/abc_button_padding_horizontal_material"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/item_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="item_week"
+                android:textColor="@color/color_33ff0000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="item_temperture"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_33ff0000"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/item_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_week"
+                android:layout_alignParentLeft="true"
+                android:text="item_wind"
+                android:textColor="@color/color_33ff0000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/item_temperture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_weather"
+                android:layout_alignParentRight="true"
+                android:text="item_temperture"
+                android:textColor="@color/color_33ff0000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+</android.support.v7.widget.CardView>
